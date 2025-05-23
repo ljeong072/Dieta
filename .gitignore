@@ -1,1 +1,5 @@
 *.pkl
+*.pt
+*.safetensors
+qa-gpt2/
+.ipynb_checkpoints/
