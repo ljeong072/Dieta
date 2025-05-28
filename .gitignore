@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -22,3 +23,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+=======
+*.pkl
+*.pt
+*.safetensors
+qa-gpt2/
+.ipynb_checkpoints/
+>>>>>>> Dev

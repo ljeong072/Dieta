@@ -1,12 +1,14 @@
 from flask import Flask, request, jsonify
 from transformers import AutoModelForCausalLM, AutoTokenizer
+from flask_cors import CORS
 import torch
 
 app = Flask(__name__)
+CORS(app)
 
 # Load from local directory
-model = AutoModelForCausalLM.from_pretrained("my_model")
-tokenizer = AutoTokenizer.from_pretrained("my_model")
+model = AutoModelForCausalLM.from_pretrained("gpt2")
+tokenizer = AutoTokenizer.from_pretrained("gpt2")
 
 @app.route("/chat", methods=["POST"])
 def chat():

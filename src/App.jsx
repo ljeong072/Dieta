@@ -4,7 +4,6 @@ import ChatMessage from "./components/ChatMessage";
 
 const App = () => {
   const chatBodyRef = useRef();
-  const [showChatbot, setShowChatbot] = useState(false);
   const [chatHistory, setChatHistory] = useState([
     {
       hideInChat: true,
@@ -46,11 +45,7 @@ const App = () => {
   }, [chatHistory]);
 
   return (
-    <div className={`container ${showChatbot ? "show-chatbot" : ""}`}>
-      <button onClick={() => setShowChatbot((prev) => !prev)} id="chatbot-toggler">
-        <span className="material-symbols-rounded">mode_comment</span>
-        <span className="material-symbols-rounded">close</span>
-      </button>
+    <div className="container show-chatbot">
 
       <div className="chatbot-popup">
         {/* Chatbot Header */}
@@ -58,9 +53,6 @@ const App = () => {
           <div className="header-info">
             <h2 className="logo-text">Dieta</h2>
           </div>
-          <button onClick={() => setShowChatbot((prev) => !prev)} className="material-symbols-rounded">
-            keyboard_arrow_down
-          </button>
         </div>
 
         {/* Chatbot Body */}
