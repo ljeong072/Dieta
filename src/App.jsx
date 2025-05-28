@@ -51,7 +51,7 @@ const App = () => {
         {/* Chatbot Header */}
         <div className="chat-header">
           <div className="header-info">
-            <h2 className="logo-text">Dieta</h2>
+            <h2 className="logo-text">Diaeta</h2>
           </div>
         </div>
 

@@ -7,9 +7,8 @@ app = Flask(__name__)
 CORS(app)
 
 # Load from local directory
-model = AutoModelForCausalLM.from_pretrained("gpt2")
-tokenizer = AutoTokenizer.from_pretrained("gpt2")
-
+model = AutoModelForCausalLM.from_pretrained("C:/Users/mahri/OneDrive/Desktop/TCSS456/my_model")
+tokenizer = AutoTokenizer.from_pretrained("C:/Users/mahri/OneDrive/Desktop/TCSS456/my_model")
 @app.route("/chat", methods=["POST"])
 def chat():
     user_input = request.json.get("message", "")
