@@ -51,10 +51,10 @@ body {
 
 .chatbot-popup {
   position: fixed;
+  top: 10%;
+  left: 35%;
   width: 420px;
   opacity: 0;
-  right: 35px;
-  bottom: 90px;
   pointer-events: none;
   transform: scale(0.2);
   overflow: hidden;

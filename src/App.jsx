@@ -12,10 +12,17 @@ const App = () => {
   ]);
 
   const generateBotResponse = async (history) => {
-    // Helper function to update chat history
     const updateHistory = (text, isError = false) => {
-      setChatHistory((prev) => [...prev.filter((msg) => msg.text !== "Thinking..."), { role: "model", text, isError }]);
+      const cleanedText = text
+        .replace(/^Q:.*?\nA:\s*/s, "") // Remove "Q: ... A:" at the start
+        .trim();
+
+      setChatHistory((prev) => [
+        ...prev.filter((msg) => msg.text !== "Thinking..."),
+        { role: "model", text: cleanedText, isError },
+      ]);
     };
+
 
     // Only send the latest user message
     const lastUserMessage = history.filter((msg) => msg.role === "user").at(-1)?.text || "";
