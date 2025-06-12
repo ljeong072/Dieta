@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dieta (virtual dietician chatbot)
 Lightweight dietary chatbot powered by gpt-2 small fine-tuned on Q&A style prompts using NLP methodologies. 
 ---
@@ -75,3 +76,7 @@ npm run dev
 ---
 ## Live Demo
 Watch the demo: [https://github.com/user-attachments/assets/1b8105f2-7f15-45f1-9331-aeda77568c3a]
+=======
+# TCSS456
+Dietary chatbot designed in a team of three members
+>>>>>>> Dev
