@@ -74,5 +74,4 @@ python chat_server.py
 npm run dev  
 ---
 ## Live Demo
-Watch the demo: [
-https://github.com/user-attachments/assets/1b8105f2-7f15-45f1-9331-aeda77568c3a]
+Watch the demo: [https://github.com/user-attachments/assets/1b8105f2-7f15-45f1-9331-aeda77568c3a]
