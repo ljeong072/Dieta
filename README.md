@@ -1,7 +1,25 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Dieta (virtual dietician chatbot)
 Lightweight dietary chatbot powered by gpt-2 small fine-tuned on Q&A style prompts using NLP methodologies. 
 ---
+=======
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+=======
+# TCSS456
+Dietary chatbot designed in a team of three members
+>>>>>>> eb57105cf468e2a5d62bbae2a7784772bced8b22
 
 ## Team name: TheMahriJustinLucas Trio
 - Justin Le
@@ -73,6 +91,7 @@ pip install flask
 Run simultaneously:  
 python chat_server.py  
 npm run dev  
+<<<<<<< HEAD
 ---
 ## Live Demo
 Watch the demo: [https://github.com/user-attachments/assets/1b8105f2-7f15-45f1-9331-aeda77568c3a]
@@ -80,3 +99,6 @@ Watch the demo: [https://github.com/user-attachments/assets/1b8105f2-7f15-45f1-9
 # TCSS456
 Dietary chatbot designed in a team of three members
 >>>>>>> Dev
+=======
+>>>>>>> 6dfd066d321a96abb36969b82887538dc1c2b5ac
+>>>>>>> eb57105cf468e2a5d62bbae2a7784772bced8b22
