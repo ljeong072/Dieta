@@ -53,7 +53,7 @@ Many individuals struggle to maintain a healthy diet due to factors such as limi
 
 ## System Architecture
 
-![System Architecture](https://github.com/user-attachments/assets/327a25a7-9b76-412f-aeec-68e4f6f25b24)
+![System Architecture](docs/architecture_diagram.png)
 
 **Components**:
 
@@ -63,15 +63,13 @@ Many individuals struggle to maintain a healthy diet due to factors such as limi
 
 ## Live Demo
 
-Watch the demo [here](https://github.com/user-attachments/assets/1b8105f2-7f15-45f1-9331-aeda77568c3a).
+Watch the demo: [`demo/demo_video.mp4`](demo/demo_video.mp4)  
 
-## Run locally:
-
+Run locally:  
 npm install node  
 pip install flask  
 
-## Run simultaneously:
-
+Run simultaneously:  
 python chat_server.py  
 npm run dev
 
