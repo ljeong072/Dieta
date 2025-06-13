@@ -30,7 +30,7 @@ Many individuals struggle to maintain a healthy diet due to factors such as limi
 
 **Datasets**:  
 - [Augmented_Meal_Planner_data](https://huggingface.co/datasets/sridhar52/Augmented_Meal_Planner_data) (4,500 Q&A style prompts)
-- [Nutritional-LLama](https://huggingface.co/datasets/Tom158/Nutritional-LLama) (1,490 Q & A style prompts)
+- [Nutritional-LLama](https://huggingface.co/datasets/Tom158/Nutritional-LLama) (1,488 Q&A style prompts)
 
 **Preprocessing Steps**:
 - Adjust the columns and concatenate them to create one large dataset
