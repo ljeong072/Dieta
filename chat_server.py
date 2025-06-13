@@ -7,8 +7,8 @@ app = Flask(__name__)
 CORS(app)
 
 # Load from local directory
-model = AutoModelForCausalLM.from_pretrained("C:/Users/mahri/OneDrive/Desktop/TCSS456/my_model")
-tokenizer = AutoTokenizer.from_pretrained("C:/Users/mahri/OneDrive/Desktop/TCSS456/my_model")
+model = AutoModelForCausalLM.from_pretrained("model/my_model")
+tokenizer = AutoTokenizer.from_pretrained("model/my_model")
 @app.route("/chat", methods=["POST"])
 def chat():
     user_input = request.json.get("message", "")
