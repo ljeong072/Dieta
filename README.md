@@ -10,9 +10,9 @@ A lightweight dietary chatbot, powered by GPT-2 Small and trained on Q&A style p
 
 ## Introduction
 
-**Use Case**: Dietiary chatbot to help users figure out a diet plan or by providing advice with regards to nutrition.  
-**Purpose**: Streamline the process of making a meal plan, making the process much more efficient and convenient.  
-**Target Users**: People struggling with dieting and nutrition and need help learning more and/or creating a viable meal plan.
+- **Use Case**: Dietiary chatbot to help users figure out a diet plan or by providing advice with regards to nutrition.  
+- **Purpose**: Streamline the process of making a meal plan, making the process much more efficient and convenient.  
+- **Target Users**: People struggling with dieting and nutrition and need help learning more and/or creating a viable meal plan.
 
 ## Problem Statement & Objective
 
@@ -20,7 +20,8 @@ Many individuals struggle to maintain a healthy diet due to factors such as limi
 
 ## Model Selection & Justification
 
-**Model Chosen**: GPT-2 Small
+**Model Chosen**: GPT-2 Small  
+
 **Why GPT-2 Small?**
 - Lightweight architecture with only 124M parameters 
 - Fast training, fine-tuning, and deployment
