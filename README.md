@@ -65,13 +65,13 @@ Many individuals struggle to maintain a healthy diet due to factors such as limi
 
 Watch the demo: [`demo/demo_video.mp4`](demo/demo_video.mp4)  
 
-Run locally:  
-npm install node  
-pip install flask  
+Install requirements:  
+`npm install node`  
+`pip install -r requirements.txt`  
 
 Run simultaneously:  
-python chat_server.py  
-npm run dev
+`python chat_server.py`  
+`npm run dev`  
 
 ## React + Vite
 
