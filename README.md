@@ -56,7 +56,7 @@ Many individuals struggle to maintain a healthy diet which is derived from a myr
 - Balancing empathy and diversity
 
 ## System Architecture
-![System Architecture]<img width="256" alt="Screenshot 2025-06-12 at 4 33 02 PM" src="https://github.com/user-attachments/assets/327a25a7-9b76-412f-aeec-68e4f6f25b24"/>
+![System Architecture](https://github.com/user-attachments/assets/327a25a7-9b76-412f-aeec-68e4f6f25b24)
 
 **Components**:
 - User input → Web UI (Vite + React)
