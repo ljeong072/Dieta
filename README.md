@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Dieta (virtual dietician chatbot)
-Lightweight dietary chatbot powered by gpt-2 small fine-tuned on Q&A style prompts using NLP methodologies. 
+# Diaeta (virtual dietician chatbot)
+Lightweight dietary chatbot powered by GPT-2 Small fine-tuned on Q&A style prompts using NLP methodologies. 
 ---
 =======
 # React + Vite
@@ -19,9 +17,8 @@ If you are developing a production application, we recommend using TypeScript wi
 =======
 # TCSS456
 Dietary chatbot designed in a team of three members
->>>>>>> eb57105cf468e2a5d62bbae2a7784772bced8b22
 
-## Team name: TheMahriJustinLucas Trio
+## Team name: The MahriJustinLucasTrio
 - Justin Le
 - Mahri Yalkapova
 - Lucas Jeong
@@ -51,18 +48,18 @@ Many individuals struggle to maintain a healthy diet which is derived from a myr
 
 **Dataset**: 
 [Augmented_Meal_Planner_data](https://huggingface.co/datasets/sridhar52/Augmented_Meal_Planner_data) (4,500 Q&A style prompts)
-[Nutritional-LLama](https://huggingface.co/datasets/Tom158/Nutritional-LLama)(1,490 Q & A style prompts)
+[Nutritional-LLama](https://huggingface.co/datasets/Tom158/Nutritional-LLama) (1,490 Q & A style prompts)
 
 **Preprocessing Steps**:
 - Adjust the columns and concatenate them to create one large dataset
-- Tokenized using pre-trained gpt-2 small
+- Tokenized using pre-trained GPT-2 Small
 
 **Training Details**:
 - Epochs: 10
 - batch size: 16
 - Learning Rate: 5e-5
 - Platform: Jupyter Notebook
-- Hardware: GPU - RTX 3060
+- Hardware: GPU - RTX 3060 Ti
 
 **Challenges**:
 - Limited model capacity
@@ -75,7 +72,7 @@ Many individuals struggle to maintain a healthy diet which is derived from a myr
 ---
 ## System Architecture
 ![System Architecture]
-<img width="256" alt="Screenshot 2025-06-12 at 4 33 02 PM" src="https://github.com/user-attachments/assets/327a25a7-9b76-412f-aeec-68e4f6f25b24" />
+<img width="256" alt="Screenshot 2025-06-12 at 4 33 02 PM" src="https://github.com/user-attachments/assets/327a25a7-9b76-412f-aeec-68e4f6f25b24"/>
 
 
 **Components**:
@@ -90,15 +87,7 @@ pip install flask
 
 Run simultaneously:  
 python chat_server.py  
-npm run dev  
-<<<<<<< HEAD
+npm run dev
 ---
 ## Live Demo
 Watch the demo: [https://github.com/user-attachments/assets/1b8105f2-7f15-45f1-9331-aeda77568c3a]
-=======
-# TCSS456
-Dietary chatbot designed in a team of three members
->>>>>>> Dev
-=======
->>>>>>> 6dfd066d321a96abb36969b82887538dc1c2b5ac
->>>>>>> eb57105cf468e2a5d62bbae2a7784772bced8b22
