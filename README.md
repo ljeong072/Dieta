@@ -74,13 +74,29 @@ Run simultaneously:
 `python chat_server.py`  
 `npm run dev`  
 
-## React + Vite
+## Example Scenario
+User: I am a vegetarian, and I would like to incorporate more protein into my diet. Furthermore, I have a goal of dropping 2kg and my current weight is 70 kg. Can you recommend a diet plan for me?
+Chatbot: As someone with overweight, it's great that you're being proactive about making informed choices. While protein-rich foods like beef chop can be a part-time snack option, it's essential to balance these foods with more significant dietary changes that might impact your health. Given your current weight and health condition, it's essential to focus on nutrient-dense foods that support a healthy weight loss journey.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.  
-Currently, two official plugins are available:
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Evaluation & Metrics
 
-## Expanding the ESLint configuration
+**Metrics:**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 5-point Likert Scale (relevance, fluency, safety)
+- Qualitative user feedback on coherence, clarity, and usefulness
+
+**Results:**
+
+- Users appreciated coherent and easy-to-read responses but reported inconsistencies with dietary restrictions and occasional hallucinations
+- Noted issues with prompt cut-offs and irrelevant or inappropriate assumptions
+
+**Limitations:**
+
+- Weak long-context understanding and constraint adherence (e.g., allergies, dietary restrictions)
+- Tendency to hallucinate medical conditions or facts
+- Token cutoff leads to incomplete or awkward responses
+- Sometimes ignores user input entirely or misinterprets the goal
+
+## Conclusion & Future Work
+
+
