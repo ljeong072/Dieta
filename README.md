@@ -98,5 +98,10 @@ Chatbot: As someone with overweight, it's great that you're being proactive abou
 - Sometimes ignores user input entirely or misinterprets the goal
 
 ## Conclusion & Future Work
-
+- Using a stronger model did not always yield in higher quality results
+- Training a stronger model took too long and was problematic in testing (could not redeploy and quickly observe changes)
+- Given that the backend is powered by a lightweight model, adding in history for user chat was not viable (confused the model)
+- Adding synthethic data (approximately 180 rows) did not add significant changes
+- If this project were to be revised accordingly, alternative models with additional datasets would've been incorporated
+- Synthethic data should've incorporated much more redundant or multiple variations with a much larger size of rows to make a difference.
 
