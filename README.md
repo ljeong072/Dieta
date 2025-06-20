@@ -75,7 +75,7 @@ Run simultaneously:
 `npm run dev`  
 
 ## Example Scenario
-User: I am a vegetarian, and I would like to incorporate more protein into my diet. Furthermore, I have a goal of dropping 2kg and my current weight is 70 kg. Can you recommend a diet plan for me?
+User: I am a vegetarian, and I would like to incorporate more protein into my diet. Furthermore, I have a goal of dropping 2kg and my current weight is 70 kg. Can you recommend a diet plan for me?  
 Chatbot: As someone with overweight, it's great that you're being proactive about making informed choices. While protein-rich foods like beef chop can be a part-time snack option, it's essential to balance these foods with more significant dietary changes that might impact your health. Given your current weight and health condition, it's essential to focus on nutrient-dense foods that support a healthy weight loss journey.
 
 ## Evaluation & Metrics
